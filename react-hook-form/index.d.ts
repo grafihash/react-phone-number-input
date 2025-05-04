@@ -30,6 +30,8 @@ export type ReactHookFormComponentProps<FormValues extends FieldValues> = {
   // Without `shouldUnregister: true`, an input value would be retained when input is removed.
   // Setting `shouldUnregister: true` makes the form behave more closer to native.
   shouldUnregister?: boolean;
+  form_label: string;
+
 }
 
 // `Props` are imported in:
